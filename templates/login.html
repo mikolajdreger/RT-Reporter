@@ -106,6 +106,22 @@
                 padding: 10px;
             }
         }
+ /* Stylizacja stopki */
+        footer {
+            margin-top: 100px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
     
     <form action="/login" method="post">
@@ -127,5 +143,8 @@
             </ul>
         {% endif %}
     {% endwith %}
+<footer>
+        <p> <a href="https://mikolajdreger.pl" target="_blank">Created by Mikołaj Dreger</a></p>
+</footer>
 </body>
 </html>
