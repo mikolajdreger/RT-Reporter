@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import io
 from datetime import datetime
-
+#app creation
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 login_manager = LoginManager()
