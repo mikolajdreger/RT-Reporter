@@ -8,7 +8,7 @@
   </a>
 </div>
 RT-Reporter is a tool dedicated to creating reports in PDF format for the Request Tracker tool - a tool dedicated to handling tickets, in the case of SOC/CERT teams to respond to security incidents. The RT-Reporter tool is built based on Flask and HTML and CSS. The version presented in this repository creates a simple summary of handled incidents in the time period declared by the user.
-
+The tool has a built-in authentication mechanism.
 
 ## Getting Started
 Below I'll give you information on how to properly run the tool on your Request Tracker instance.
