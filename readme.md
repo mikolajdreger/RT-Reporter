@@ -26,8 +26,12 @@ The tool works with a mysql database, it uses a database dedicated to Request Tr
   ```
 * Granting permissions
   ```sh
-  GRANT SELECT on rt5.Tickets TO 'reporter'@'localhost' WITH GRANT OPTION  
+  GRANT SELECT on rt5.Tickets TO 'reporter'@'localhost' WITH GRANT OPTION;  
   ```
+  ```sh
+  FLUSH PRIVILEGES;
+  ```
+
 
 ### Installation
 
