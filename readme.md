@@ -1,4 +1,4 @@
-<h3 align="center">RT-Reporter</h3>
+<h1 align="center">RT-Reporter</h1>
 
 ## About The Project
 
